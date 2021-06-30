@@ -36,7 +36,29 @@ a { color: #3edbf0;
     font-size: 20px;
 }
 
-a:hover{ color: #B3E7E5; }
+.ContactMe {
+  background-color: #FAF1E6;
+  position: relative;
+  height: 400px;
+  margin: 0;
+  padding: 20 0 0 10;
+}
+
+.ContactMe2 {
+  background-color: #CDF0EA;
+  position: relative;
+  height: 450px;
+  margin: 0;
+  padding: 20 0 0 10;
+
+}
+
+.landingpageimages {
+  position: relative;
+   width: 100%;
+   height: 0;
+   padding-bottom: 100%;
+}
 
 .Footer {
   background: #deedf0;
@@ -89,9 +111,18 @@ Padding-bottom: 20px;
 .Div2 {
   background-color: #a3d2ca;
   position: relative;
-  height: 1200px;
+  height: 500px;
   margin: 0;
   padding: 15 0 0 10;
+}
+
+.Div2-Skills {
+  background-color: #a3d2ca;
+  position: relative;
+  height: 1200px;
+  margin: 0;
+  padding-top: 10px;
+
 }
 
 .Footer-Copyright {
@@ -103,12 +134,13 @@ Padding-bottom: 20px;
 .Div3 {
   background-color: #5eaaa8;
   margin: 0;
-  height: 300px;
+  height: 250px;
 }
 
 .mountain {
-  position: relative;
-  top: 40px;
+  position: absolute;
+  top: 400px;
+  right: 541px;
   height: 403px;
   width: 837.531px;
 }
@@ -118,14 +150,15 @@ Padding-bottom: 20px;
 }
 
 .cloud1 {
-  position: relative;
+  position: absolute;
   height: 100px;
-  left: 450px;
+  left: 1350px;
   top: 125px
 }
 
 .cloud2 {
   position: absolute;
+  top: 210px;
   left: 370px;
   height: 100px;
 }
