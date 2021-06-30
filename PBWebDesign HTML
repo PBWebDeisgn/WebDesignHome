@@ -2,12 +2,36 @@
 <html lang="en" dir="ltr">
 
 <head>
-  <meta charset="utf-8">
-  <title> PBWebDesign</title>
+    <link href="https://fonts.googleapis.com/css2?family=Akaya+Kanadaka&family=Castoro&family=Roboto:wght@300&display=swap" rel="stylesheet">
 
-  <link rel="stylesheet" href="StylesCss.css/styles.css">
-  <link rel="icon" href="favicon.ico">
-  <link href="https://fonts.googleapis.com/css2?family=Akaya+Kanadaka&family=Castoro&family=Roboto:wght@300&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link rel="stylesheet" href="StylesCss.css/styles.css">
+    <link rel="stylesheet" href="tab.js">
+  <meta charset="utf-8">
+
+  <!-- Nav Bar!  -->
+
+  <nav class="navbar sticky-top navbar-expand lg navbar-light" style="background-color: #e3f2fd;">
+    <div class="container-fluid">
+      <ul class="nav nav-tabs">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="PBWebDesign.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="Skills.html">Skills</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="ContactMe.html">Contact</a>
+        </li>
+    
+      </ul>
+    </div>
+  </nav>
+
+<!-- Landing Page -->
+
+  <title> PBWebDesign</title>
+    <link rel="icon" href="favicon.ico">
 
 </head>
 
@@ -16,7 +40,11 @@
   <div class="Container-top">
 
     <div class="Div1">
-      <img class="cloud1" src="Images/cloud.png" alt="Cloud.img">
+      <div class="Landingpageimages">
+        <img class="cloud1" src="Images/cloud.png" alt="Cloud.img">
+        <img class="mountain" src="Images/mountain.png" alt="mountain.img">
+        <img class="cloud2" src="Images/cloud.png" alt="Cloud.img">
+      </div>
       <br>
       <br>
       <br>
@@ -24,57 +52,39 @@
 
       <h2>A Web Designer </h2>
 
+<!-- About Me & Skills -->
 
-      <img class="mountain" src="Images/mountain.png" alt="mountain.img">
-      <img class="cloud2" src="Images/cloud.png" alt="Cloud.img">
     </div>
 
   </div>
   <div class="Div2">
     <div class="profile">
+      <br>
+      <br>
       <img class="Me" padding="10" width="200" height="200" src="images/circle-cropped.png" alt="Jordan Profile Photo" style=margin-top 10px;>
       <h2>Hello</h2>
       <p> I'm Jordan, a bit about me? I love coffee and you can find me at a desk, or at the gym. I'm a motivated and passionate individual a love of all things creative. </p>
     </div>
-    <br>
-<hr>
-<br>
-    <div class="skills">
-      <h2>My Skills</h2>
-      <br>
-      <div class="skill-row">
-        <img class="Web-Design" height="200" width="300" src="https://media.giphy.com/media/u1WhXLjwgcXpHJBMRM/giphy.gif" alt="Coding">
-        <h2>Web Design</h2>
-        <p class="WebDesignParagraph">As an aspiring Web Developer, I'm looking to gain the skils necesary to build, design, and make fuctional
-          websites for both personal and commercial use.</p>
-              </div>
-              <br>
-        <div class="Customer-Service">
-          <img class="CustomerService-Image" height="200" width="300" src="https://media.giphy.com/media/2tOqvNUCiyxol0ltMO/giphy.gif" alt="Customer Service">
-          <h2>Customer Service</h2>
-          <p> With extensive customer service experience, spanning 5+ years, you can rest assured I understand what is required for premium customer support.</p>
-        </div>
 
-    </div>
-    <br>
-    <hr class="HR2">
-    <br>
+
+<!-- Contact Me -->
+
     <div class="Div3">
       <div class="contact-me">
-        <h2 class="GetInTouch">Get In Touch</h2>
-        <h3>Got any questions?</h3>
-        <p>Feel free to reach out via the link below.</p>
-        <br>
+        <h2 class="GetInTouch">Got any questions?</h2>
+
+        <p>Don't hesitate to get in touch!</p>
+
         <a href="ContactMe.html" class="BUTTON_HKG">CONTACT ME</a>
       </div>
     </div>
 
-  <div class="Footer">
-    <a class="footer-link" href="https://www.linkedin.com/">LinkedIn</a>
-    <a class="footer-link" href="https://www.instagram.com/omgimjordan/">Instagram</a>
-    <a class="footer-link" href="https://www.appbrewery.co/">Website</a>
-    <p class="Footer-Copyright">© 2021 Jordan Procter-Bryant.</p>
-  </div>
+    <div class="Footer">
+      <a class="footer-link" href="https://www.linkedin.com/">LinkedIn</a>
+      <a class="footer-link" href="https://www.instagram.com/omgimjordan/">Instagram</a>
+      <a class="footer-link" href="https://www.appbrewery.co/">Website</a>
+      <p class="Footer-Copyright">© 2021 Jordan Procter-Bryant.</p>
+    </div>
 </body>
 
 </html>
